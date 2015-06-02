@@ -1,7 +1,7 @@
 {
   "name": "filler",
   "version": "0.0.1",
-  "description": "",
+  "description": "It sucks making boilerplate stuff.  The lazy way is to have Node do it for you.",
   "main": "app.js",
   "directories": {
     "test": "test"
@@ -9,8 +9,7 @@
   "scripts": {
     "test": "mocha --reporter spec"
   },
-  "keywords": [
-  ],
+  "keywords": [],
   "author": "Jeremy Greer <jeremy.greer.atl@gmail.com> (http://jeremygreer.herokuapp.com/)",
   "license": "ISC",
   "devDependencies": {
@@ -20,5 +19,13 @@
     "mocha": "^2.2.4",
     "willy": "^1.0.1"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reergymerej/filler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/reergymerej/filler/issues"
+  },
+  "homepage": "https://github.com/reergymerej/filler#readme"
 }
